@@ -1,6 +1,6 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Main from "./pages/main/Main";
-import Roknrol from "./pages/roknrol/Roknrol";
+import Main from "./components/pages/main/Main";
+import Roknrol from "./components/pages/roknrol/Roknrol";
 
 function App() {
   return (
