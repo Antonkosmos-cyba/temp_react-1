@@ -1,7 +1,8 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Main from "./components/pages/main/Main";
-import Roknrol from "./components/pages/roknrol/Roknrol";
-import Heder from "./components/pages/header/Header";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Main from "./components/main/Main";
+import Roknrol from "./components/roknrol/Roknrol";
+import Heder from "./components/header/Header";
 
 function App() {
   return (
