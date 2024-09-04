@@ -23,6 +23,11 @@ function Heder() {
                 Рок-н-Ролл
               </CustLink>
             </Nav.Link>
+            <Nav.Link>
+              <CustLink to="/hard" className="no-underline">
+                Хард
+              </CustLink>
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
