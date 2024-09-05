@@ -5,7 +5,7 @@ import "./hard.css";
 function Hard() {
   return (
     <>
-      <div className="mu">mu</div>
+      <div className="mu">hard</div>
     </>
   );
 }

@@ -24,8 +24,23 @@ function Heder() {
               </CustLink>
             </Nav.Link>
             <Nav.Link>
+              <CustLink to="/rok" className="no-underline">
+                Рок
+              </CustLink>
+            </Nav.Link>
+            <Nav.Link>
               <CustLink to="/hard" className="no-underline">
-                Хард
+                Хард-рок
+              </CustLink>
+            </Nav.Link>
+            <Nav.Link>
+              <CustLink to="/metal" className="no-underline">
+                Метал
+              </CustLink>
+            </Nav.Link>
+            <Nav.Link>
+              <CustLink to="/trash" className="no-underline">
+                Треш-рок
               </CustLink>
             </Nav.Link>
           </Nav>

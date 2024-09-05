@@ -4,7 +4,7 @@ import "./metal.css";
 function Metal() {
   return (
     <>
-      <h1>af</h1>
+      <h1>Metal</h1>
     </>
   );
 }

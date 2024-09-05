@@ -1,12 +1,14 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from "./components/main/Main";
-import Roknrol from "./components/roknrol/Roknrol";
 import Heder from "./components/header/Header";
 import Foter from "./components/footer/Footer";
-import Metal from "./components/hard_rok/Hard";
-import Rok from "./components/rok/Rok";
-import Trash from "./components/trash/Trash";
+
+import Roknrol from "./components/pages/roknrol/Roknrol";
+import Rok from "./components/pages/rok/Rok";
+import Hard from "./components/pages/hard_rok/Hard";
+import Metal from "./components/pages/metal/Metal";
+import Trash from "./components/pages/trash/Trash";
 
 function App() {
   return (
@@ -17,8 +19,9 @@ function App() {
           <Routes>
             <Route exact path="/" element={<Main />} />
             <Route path="/roknrol" element={<Roknrol />} />
-            <Route path="/metal" element={<Metal />} />
             <Route path="/rok" element={<Rok />} />
+            <Route path="/hard" element={<Hard />} />
+            <Route path="/metal" element={<Metal />} />
             <Route path="/trash" element={<Trash />} />
           </Routes>
         </div>
