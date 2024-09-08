@@ -4,18 +4,19 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import "./header.css";
 import { CustLink } from "../Customlink";
+import rock from "./hom.svg";
 
 function Heder() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
       <Container>
-        <Navbar.Brand href="#home">Hastja foreva</Navbar.Brand>
+        <Navbar.Brand href="#home">Для Насти</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="but">
-          <Nav className="me-auto fonttes">
+          <Nav className="me-auto fontes">
             <Nav.Link>
               <CustLink to="/" className="no-underline">
-                Главная
+                <img className="ico" src={rock} alt="" />
               </CustLink>
             </Nav.Link>
             <Nav.Link>
@@ -23,11 +24,11 @@ function Heder() {
                 Рок-н-Ролл
               </CustLink>
             </Nav.Link>
-            <Nav.Link>
+            {/* <Nav.Link>
               <CustLink to="/rok" className="no-underline">
                 Рок
               </CustLink>
-            </Nav.Link>
+            </Nav.Link> */}
             <Nav.Link>
               <CustLink to="/hard" className="no-underline">
                 Хард-рок
