@@ -2,3 +2,14 @@
   font-style: 16px;
   color: blueviolet;
 }
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+}
+
+a.nav-link {
+  display: block;
+  width: fit-content;
+  padding: 5px;
+}

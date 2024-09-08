@@ -11,7 +11,7 @@ function Heder() {
       <Container>
         <Navbar.Brand href="#home">Hastja foreva</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav" className="but">
           <Nav className="me-auto fonttes">
             <Nav.Link>
               <CustLink to="/" className="no-underline">
