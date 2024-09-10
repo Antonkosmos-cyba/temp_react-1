@@ -1,11 +1,12 @@
 .logo {
   display: flex;
   justify-content: end;
-  padding: 50px;
+  padding: 20px 0;
   width: 100%;
 }
 
 .foto {
   width: 30%;
   height: auto;
+  border-radius: 9px;
 }
