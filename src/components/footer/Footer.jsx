@@ -6,7 +6,9 @@ import "./footer.css";
 function Foter() {
   return (
     <>
-      <img src={Logo} alt="" />
+      <div className="logo">
+        <img className="foto" src={Logo} alt="" />
+      </div>
     </>
   );
 }

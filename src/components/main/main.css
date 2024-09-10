@@ -1,3 +1,7 @@
+body {
+  background-color: grey;
+}
+
 .nasta {
   font-size: 48px;
   color: green;
@@ -6,21 +10,3 @@
   background-attachment: fixed;
   min-height: 100vh;
 }
-
-/* @media (max-width: 770px) {
-  body {
-    background-image: url("./fon1.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-    min-height: 100vh;
-  }
-}
-
-@media (max-width: 425px) {
-  body {
-    background-image: url("./fon2.jpg");
-    background-size: 100%;
-    background-attachment: fixed;
-    min-height: 100vh;
-  }
-} */
