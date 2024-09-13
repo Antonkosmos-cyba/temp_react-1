@@ -7,7 +7,7 @@ const CustLink = ({ children, to, ...props }) => {
     <Link
       to={to}
       style={{
-        color: match ? "#3d9156" : "#ad459f",
+        color: match ? "#11f542" : "#fff",
       }}
       {...props}
     >

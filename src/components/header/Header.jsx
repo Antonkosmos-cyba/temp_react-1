@@ -8,7 +8,7 @@ import rock from "./hom.svg";
 
 function Heder() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className="bg-transparent" data-bs-theme="dark">
       <Container>
         <Navbar.Brand href="#home">Для Насти</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
