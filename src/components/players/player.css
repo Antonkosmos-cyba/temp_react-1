@@ -1,0 +1,135 @@
+:root {
+  --bant: #8cd8ac;
+  --fon: #e08d8d;
+}
+
+@font-face {
+  font-family: "crep";
+  src: url(./assets/fonts/creepster.otf);
+}
+
+@font-face {
+  font-family: "dua";
+  src: url(./assets/fonts/Duality.otf);
+}
+
+
+body {
+  background-color: var(--fon);
+}
+
+.App {
+  text-align: center;
+}
+
+.component {
+  background-color: rgb(228, 254, 220);
+  width: 25%;
+  max-width: 600px;
+  margin: 1em auto;
+  padding-bottom: 2em;
+  border: 1px solid var(--bant);
+  border-radius: 10px;
+  box-shadow: 15px 16px 17px 0px rgba(34, 60, 80, 0.5);
+}
+
+.apekt {
+  font-family: crep;
+  /* font-size: clamp(2.8rem, calc(0.91rem + 2.93vw), 5rem); */
+
+  font-size: max(1em, min(4em, calc(100vw * 4 / 75)));
+  margin: 0;
+  padding: 0;
+}
+
+.musicCover {
+  border-radius: 10%;
+}
+
+img {
+  width: 90%;
+  height: auto;
+}
+
+.playButton {
+  background: none;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.title,
+.subTitle {
+  font-family: dua;
+  /* font-size: clamp(1.5rem, calc(0.91rem + 2.93vw), 1.5rem); */
+  font-size: max(0.8em, min(3em, calc(100vw * 4 / 75)));
+}
+
+.subTitle {
+  margin-top: -1em;
+  color: #4f4f4f;
+}
+
+.time {
+  margin: 0 auto;
+  width: 80%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: var(--bant);
+  font-size: smaller;
+}
+
+.timeline {
+  width: 80%;
+  margin-bottom: 10px;
+  /* background-color: var(--bant); */
+}
+
+/*! СТИЛИЗАЦИЯ ПОЛЗУНКА */
+
+input[type=range] {
+
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+  border-radius: 10px/100%;
+  height: 7px;
+  border: 1px solid var(--bant);
+  background-color: #fff;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  background: var(--bant);
+  border: 1px solid var(--bant);
+  border-radius: 10px/100%;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  -webkit-appearance: none;
+  margin-top: -4px;
+}
+
+input[type=range]::-moz-range-track {
+  border-radius: 10px/100%;
+  height: 5px;
+  border: 1px solid var(--bant);
+  background-color: #fff;
+}
+
+input[type=range]::-moz-range-thumb {
+  background: #ecf0f1;
+  border: 1px solid var(--bant);
+  border-radius: 10px/100%;
+  cursor: pointer;
+}
+
+/* !------------------------- */
+@media (max-width: 900px) {
+  .component {
+    width: 50%;
+  }
+}
