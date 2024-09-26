@@ -3,3 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "crep";
+  src: url(./assets/fonts/creepster.otf);
+}
+
+@font-face {
+  font-family: "dua";
+  src: url(./assets/fonts/Duality.otf);
+}

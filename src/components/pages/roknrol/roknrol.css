@@ -1,14 +1,3 @@
-@font-face {
-  font-family: "crep";
-  src: url(./assets/fonts/creepster.otf);
-}
-
-@font-face {
-  font-family: "dua";
-  src: url(./assets/fonts/Duality.otf);
-}
-
-
 body {
   background-image: url(./fonroknroll.jpg);
 }
