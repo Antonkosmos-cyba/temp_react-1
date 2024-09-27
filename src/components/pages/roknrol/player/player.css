@@ -3,10 +3,6 @@
   --fon: #e08d8d;
 }
 
-.App {
-  text-align: center;
-}
-
 .component {
   background-color: rgb(228, 254, 220);
   width: 25%;
@@ -15,6 +11,7 @@
   padding-bottom: 2em;
   border: 1px solid var(--bant);
   border-radius: 10px;
+  text-align: center;
   box-shadow: 15px 16px 17px 0px rgba(34, 60, 80, 0.5);
 }
 
@@ -51,7 +48,7 @@ img {
 }
 
 .subTitle {
-  margin-top: -1em;
+  /* margin-top: -1em; */
   color: #4f4f4f;
 }
 
