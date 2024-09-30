@@ -5,8 +5,8 @@
 
 .component {
   background-color: rgb(228, 254, 220);
-  width: 25%;
-  max-width: 600px;
+  width: 51%;
+  max-width: 300px;
   margin: 1em auto;
   padding-bottom: 2em;
   border: 1px solid var(--bant);
@@ -110,8 +110,8 @@ input[type=range]::-moz-range-thumb {
 }
 
 /* !------------------------- */
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .component {
     width: 50%;
   }
-}
+} */
