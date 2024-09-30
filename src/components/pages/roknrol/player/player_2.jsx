@@ -68,7 +68,7 @@ export default function PlayerD() {
       <img className="musicCover" src={foto} />
       <div>
         <h3 className="title">Фаина</h3>
-        <p className="subTitle">Группа "На-на"</p>
+        <h3 className="subTitle">Группа "На-на"</h3>
       </div>
       <div>
         <div className="time">

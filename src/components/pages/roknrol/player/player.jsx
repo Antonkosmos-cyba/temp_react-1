@@ -64,7 +64,7 @@ export default function Player() {
       <img className="musicCover" src={Foto} />
       <div>
         <h3 className="title">Песня</h3>
-        <p className="subTitle">Элвис</p>
+        <h3 className="subTitle">Элвис</h3>
       </div>
       <div>
         <div className="time">
