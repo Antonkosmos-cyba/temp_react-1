@@ -11,7 +11,9 @@ function Heder() {
   return (
     <Navbar expand="lg" className="bg-transparent" data-bs-theme="dark">
       <Container>
-        <Navbar.Brand href="#home">Для Насти</Navbar.Brand>
+        <Navbar.Brand href="#home" className="head">
+          История Рок-н-Рола
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="but">
           <Nav className="me-auto fontes">

@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import ws from "../assets/WS_Flesh_Blood.mp3";
+import muz from "../acdc.mp3";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import fotoacdc from "../assets/acdc.jpg";
+import foto from "../acdc.jpg";
 
 export default function PlayerD() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -19,7 +19,7 @@ export default function PlayerD() {
 
   const [seconds, setSeconds] = useState();
 
-  const [play, { pause, duration, sound }] = useSound(ws);
+  const [play, { pause, duration, sound }] = useSound(muz);
 
   //! МУЗЫКА
 
@@ -63,10 +63,10 @@ export default function PlayerD() {
   return (
     <div className="component">
       <p className="apekt">Для Насти :)</p>
-      <img className="musicCover" src={fotoacdc} />
+      <img className="musicCover" src={foto} />
       <div>
-        <h3 className="title">Фаина</h3>
-        <p className="subTitle">Группа "На-на"</p>
+        <h3 className="title">Back in Black</h3>
+        <p className="subTitle">ACDC</p>
       </div>
       <div>
         <div className="time">

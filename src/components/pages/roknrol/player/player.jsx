@@ -63,8 +63,8 @@ export default function Player() {
       <p className="apekt">Для Насти :)</p>
       <img className="musicCover" src={Foto} />
       <div>
-        <h3 className="title">Песня</h3>
-        <h3 className="subTitle">Элвис</h3>
+        <h3 className="title">A big hunk o' love</h3>
+        <h3 className="subTitle">Elvis Presley</h3>
       </div>
       <div>
         <div className="time">
@@ -88,11 +88,11 @@ export default function Player() {
         />
       </div>
       <div>
-        <button className="playButton">
+        {/* <button className="playButton">
           <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
             <BiSkipPrevious />
           </IconContext.Provider>
-        </button>
+        </button> */}
         {!isPlaying ? (
           <button className="playButton" onClick={playingButton}>
             <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
@@ -106,11 +106,11 @@ export default function Player() {
             </IconContext.Provider>
           </button>
         )}
-        <button className="playButton">
+        {/* <button className="playButton"> 
           <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
             <BiSkipNext />
           </IconContext.Provider>
-        </button>
+        </button> */}
       </div>
     </div>
   );

@@ -1,12 +1,15 @@
 import React from "react";
-
 import "./hard.css";
+import "./player/player.css";
+import Player from "./player/player";
+import Player2 from "./player/player_2";
 
 function Hard() {
   return (
-    <>
-      <div className="mu">hard</div>
-    </>
+    <div className="hard">
+      <Player />
+      <Player2 />
+    </div>
   );
 }
 

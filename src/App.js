@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <div className="container">
+        <div>
           <Heder />
           <Routes>
             <Route exact path="/" element={<Main />} />

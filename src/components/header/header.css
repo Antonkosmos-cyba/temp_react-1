@@ -1,6 +1,11 @@
-Container {
+/* Container {
   background-color: grey;
-  font-family: crep;
+
+} */
+
+.head {
+  font-family: dua;
+  text-shadow: black 2px 2px;
 }
 
 .navbar-nav {
@@ -12,6 +17,8 @@ a.nav-link {
   display: block;
   width: fit-content;
   padding: 5px;
+  text-shadow: black 2px 2px;
+  font-family: dua;
 }
 
 .ico {
@@ -20,6 +27,7 @@ a.nav-link {
   width: 20px;
   height: 20px;
   fill: azure;
+  text-shadow: black 2px 2px;
 }
 
 a {

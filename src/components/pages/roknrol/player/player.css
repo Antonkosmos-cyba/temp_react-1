@@ -1,7 +1,7 @@
 :root {
   --bant: #8cd8ac;
   --fon: #e08d8d;
-  --tit: #195a1c;
+  --tit: #23740f;
 }
 
 .component {
@@ -43,7 +43,7 @@ img {
 }
 
 .title {
-  margin-top: 10px;
+  margin-top: 20px;
   font-family: dua;
   /* font-size: clamp(1.5rem, calc(0.91rem + 2.93vw), 1.5rem); */
   font-size: max(0.8em, min(2em, calc(100vw * 4 / 75)));
@@ -58,6 +58,11 @@ img {
 .title,
 .subTitle {
   color: var(--tit);
+}
+
+p {
+  margin-bottom: 0;
+  color: #27ae5fdd;
 }
 
 .time {
