@@ -13,3 +13,7 @@
   font-family: "dua";
   src: url(./assets/fonts/Duality.otf);
 }
+
+.container {
+  padding: 0 5px;
+}

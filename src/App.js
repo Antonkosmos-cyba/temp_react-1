@@ -8,12 +8,13 @@ import Roknrol from "./components/pages/roknrol/Roknrol";
 import Hard from "./components/pages/hard_rok/Hard";
 import Metal from "./components/pages/metal/Metal";
 import Trash from "./components/pages/trash/Trash";
+import "./app.css";
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <div>
+        <div className="container">
           <Heder />
           <Routes>
             <Route exact path="/" element={<Main />} />
