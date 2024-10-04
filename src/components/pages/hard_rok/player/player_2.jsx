@@ -90,11 +90,6 @@ export default function PlayerD() {
         />
       </div>
       <div>
-        <button className="playButton">
-          <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
-            <BiSkipPrevious />
-          </IconContext.Provider>
-        </button>
         {!isPlaying ? (
           <button className="playButton" onClick={playingButton}>
             <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
@@ -108,11 +103,6 @@ export default function PlayerD() {
             </IconContext.Provider>
           </button>
         )}
-        <button className="playButton">
-          <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
-            <BiSkipNext />
-          </IconContext.Provider>
-        </button>
       </div>
     </div>
   );
