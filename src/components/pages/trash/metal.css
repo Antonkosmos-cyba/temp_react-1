@@ -1,0 +1,13 @@
+.metal {
+  background-image: url(./metall-fon_1.jpg);
+  background-size: cover;
+}
+
+.metal {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  justify-content: space-around;
+  flex-shrink: 1;
+  flex-wrap: wrap;
+}
