@@ -1,12 +1,16 @@
 import React from "react";
 import "./metal.css";
+import "./player/player.css";
+import Player from "./player/player";
+import Player2 from "./player/player_2";
 
-function Metal() {
+function Hard() {
   return (
-    <>
-      <h1>Metal</h1>
-    </>
+    <div className="metal">
+      <Player />
+      <Player2 />
+    </div>
   );
 }
 
-export default Metal;
+export default Hard;
