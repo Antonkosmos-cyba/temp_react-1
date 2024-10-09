@@ -63,8 +63,8 @@ export default function Player() {
       <p className="apekt">Для Насти :)</p>
       <img className="musicCover" src={foto} />
       <div>
-        <h3 className="title">Iron Head</h3>
-        <p className="subTitle">Ozzy Osdourne</p>
+        <h3 className="title">Bitch, Party, Sex</h3>
+        <p className="subTitle">Merlin Menson</p>
       </div>
       <div>
         <div className="time">

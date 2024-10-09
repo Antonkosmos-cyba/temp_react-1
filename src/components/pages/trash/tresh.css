@@ -1,9 +1,9 @@
-.metal {
-  background-image: url(./metall-fon_1.jpg);
+.tresh {
+  background-image: url(./fontrez.jpg);
   background-size: cover;
 }
 
-.metal {
+.tresh {
   display: flex;
   flex-direction: row;
   padding: 10px;

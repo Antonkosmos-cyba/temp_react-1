@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import muz from "../Ram.mp3";
+import muz from "../Alo.mp3";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
-import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
+// import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto from "../Ramstein_1.jpg";
+import foto from "../treshg.png";
 
 export default function PlayerD() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -65,8 +65,8 @@ export default function PlayerD() {
       <p className="apekt">Для Насти :)</p>
       <img className="musicCover" src={foto} />
       <div>
-        <h3 className="title">Du Hast</h3>
-        <p className="subTitle">Rammstein</p>
+        <h3 className="title">Riders Temples</h3>
+        <p className="subTitle">Alocer</p>
       </div>
       <div>
         <div className="time">
