@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import muz from "../Mer.mp3";
+import muz from "../De.mp3";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 // import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto from "../Menson.jpg";
+import foto from "../LornaShore.jpg";
 
 export default function Player() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -63,8 +63,8 @@ export default function Player() {
       <p className="apekt">Для Насти :)</p>
       <img className="musicCover" src={foto} />
       <div>
-        <h3 className="title">Bitch, Party, Sex</h3>
-        <p className="subTitle">Merlin Menson</p>
+        <h3 className="title">Death Portrait</h3>
+        <p className="subTitle">Lorna Shore</p>
       </div>
       <div>
         <div className="time">
