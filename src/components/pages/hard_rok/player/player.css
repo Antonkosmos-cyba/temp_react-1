@@ -6,8 +6,8 @@
 
 .component {
   background-color: rgb(228, 254, 220);
-  width: 51%;
-  max-width: 300px;
+  /* width: 51%; */
+  max-width: 400px;
   margin: 1em auto;
   padding-bottom: 2em;
   border: 1px solid var(--bant);
@@ -20,8 +20,8 @@
   font-family: crep;
   color: var(--tit);
   /* font-size: clamp(2.8rem, calc(0.91rem + 2.93vw), 5rem); */
-
-  font-size: max(1em, min(4em, calc(100vw * 4 / 75)));
+  font-size: 2rem;
+  /* font-size: max(1em, min(4em, calc(100vw * 4 / 75))); */
   margin: 10px;
   padding: 0;
 }

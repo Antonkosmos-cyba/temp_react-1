@@ -1,13 +1,19 @@
-body {
-  background-color: grey;
-}
-
 .nasta {
-  font-size: 48px;
-  color: green;
   background-image: url("./MusFon3.avif");
   background-size: cover;
   background-attachment: fixed;
   min-height: 100vh;
   min-width: 100%;
+}
+
+.topic {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px 0;
+  /* background-color: azure; */
+  backdrop-filter: blur(10px);
+  /* font-size: pxToRem(24px); */
+  font-size: clamp(1rem, 0.384rem + 2.629vw, 2.75rem);
+  color: aliceblue;
 }
