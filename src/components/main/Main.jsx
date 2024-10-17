@@ -9,18 +9,13 @@ function Main() {
       <div className="nasta">
         <div>
           <p className="topic">
-            Anastasija Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Ex facilis dolor expedita praesentium libero odit nostrum laboriosam
-            voluptate, illum aliquam quis quos nulla ut neque dignissimos
-            reiciendis incidunt eveniet? Voluptatibus rerum vel quis voluptates
-            velit eaque unde aliquam ducimus eius incidunt, id sit ipsam est,
-            animi in excepturi sequi quasi sapiente autem laboriosam corporis
-            cupiditate modi placeat! Ratione minus, laboriosam animi rerum
-            officia rem eaque eius velit aperiam nesciunt at corporis error
-            cupiditate voluptas quos. Quas animi dolores tempore, possimus
-            consequuntur autem eius iusto dolor, architecto illo corrupti
-            commodi, officiis harum. Perferendis nam assumenda quam, at quia
-            voluptatem odit possimus.
+            ❤️ Привет Настя! <br />Я увлекаюсь музыкой, люблю слушать разные
+            жанры. Особено с юмором, русские патриотические, песни-пародии.
+            Очень нравятся песни на французском языке. Ещё слушаю на китайском и
+            казахском - мне почему-то смешно 🤣 А ещё интересуюсь рок-музыкой,
+            но её так много, что мне не легко в ней разобраться. Здесь я
+            подобрал примеры разных стилей рока. Какой тебе больше нравится?
+            Очень хочется узнать твоё мнение. 😊
           </p>
         </div>
       </div>
