@@ -60,7 +60,6 @@ export default function Player() {
 
   return (
     <div className="component">
-      <p className="apekt">Для Насти :)</p>
       <img className="musicCover" src={foto} />
       <div>
         <h3 className="title">Iron Head</h3>

@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import useSound from "use-sound";
 import muz from "../acdc.mp3";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
-import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
+// import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
 import foto from "../acdc.jpg";
 
@@ -62,7 +62,6 @@ export default function PlayerD() {
 
   return (
     <div className="component">
-      <p className="apekt">Для Насти :)</p>
       <img className="musicCover" src={foto} />
       <div>
         <h3 className="title">Back in Black</h3>
