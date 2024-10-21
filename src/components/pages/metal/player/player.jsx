@@ -66,27 +66,6 @@ export default function Player() {
         <p className="subTitle">Ozzy Osdourne</p>
       </div>
       <div>
-        <div className="time">
-          <p>
-            {currTime.min}:{currTime.sec}
-          </p>
-          <p>
-            {time.min}:{time.sec}
-          </p>
-        </div>
-        <input
-          type="range"
-          min="0"
-          max={duration / 1000}
-          default="0"
-          value={seconds}
-          className="timeline"
-          onChange={(e) => {
-            sound.seek([e.target.value]);
-          }}
-        />
-      </div>
-      <div>
         {!isPlaying ? (
           <button className="playButton" onClick={playingButton}>
             <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>

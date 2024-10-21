@@ -70,14 +70,6 @@ export default function PlayerD() {
         <h3 className="subTitle">Beatles</h3>
       </div>
       <div>
-        <div className="time">
-          <p>
-            {currTime.min}:{currTime.sec}
-          </p>
-          <p>
-            {time.min}:{time.sec}
-          </p>
-        </div>
         <input
           type="range"
           min="0"

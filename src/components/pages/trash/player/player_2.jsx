@@ -69,14 +69,6 @@ export default function PlayerD() {
         <p className="subTitle">Alocer</p>
       </div>
       <div>
-        <div className="time">
-          <p>
-            {currTime.min}:{currTime.sec}
-          </p>
-          <p>
-            {time.min}:{time.sec}
-          </p>
-        </div>
         <input
           type="range"
           min="0"
