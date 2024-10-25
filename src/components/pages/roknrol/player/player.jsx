@@ -4,7 +4,7 @@ import Foto from "../Elvis.webp";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import Muzik from "../Elvis.mp3";
+import Muzik from "../Elvis.ogg";
 
 export default function Player() {
   const [isPlaying, setIsPlaying] = useState(false);

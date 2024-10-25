@@ -5,7 +5,7 @@ import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
 import "../roknrol.css";
 import "../../../../app.css";
-import muz from "../Beat.mp3";
+import muz from "../Beat.ogg";
 import foto from "../Beatles2.jpg";
 
 export default function PlayerD() {

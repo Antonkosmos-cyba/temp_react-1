@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import muz from "../acdc.mp3";
+import muz from "../acdc.ogg";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 // import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
