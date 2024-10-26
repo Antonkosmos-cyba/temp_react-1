@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import muz from "../Ozzy.ogg";
+import muz_metal2_ozu_ogg from "../Ozzy.ogg";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 // import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto from "../ozu.webp";
+import foto_metal2_ozu_webp from "../ozu.webp";
 
 export default function Player() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -19,7 +19,7 @@ export default function Player() {
 
   const [seconds, setSeconds] = useState();
 
-  const [play, { pause, duration, sound }] = useSound(muz);
+  const [play, { pause, duration, sound }] = useSound(muz_metal2_ozu_ogg);
 
   useEffect(() => {
     if (duration) {
@@ -60,7 +60,7 @@ export default function Player() {
 
   return (
     <div className="component">
-      <img className="musicCover" src={foto} />
+      <img className="musicCover" src={foto_metal2_ozu_webp} />
       <div>
         <h3 className="title">Iron Head</h3>
         <p className="subTitle">Ozzy Osdourne</p>

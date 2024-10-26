@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import muz from "../Ram.ogg";
+import muz_metal1_ogg from "../Ram.ogg";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto from "../Ramstein_1.webp";
+import foto_metal2_web from "../Ramstein_1.webp";
 
 export default function PlayerD() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -19,7 +19,7 @@ export default function PlayerD() {
 
   const [seconds, setSeconds] = useState();
 
-  const [play, { pause, duration, sound }] = useSound(muz);
+  const [play, { pause, duration, sound }] = useSound(muz_metal1_ogg);
 
   //! МУЗЫКА
 
@@ -62,7 +62,7 @@ export default function PlayerD() {
 
   return (
     <div className="component">
-      <img className="musicCover" src={foto} />
+      <img className="musicCover" src={foto_metal2_web} />
       <div>
         <h3 className="title">Du Hast</h3>
         <p className="subTitle">Rammstein</p>

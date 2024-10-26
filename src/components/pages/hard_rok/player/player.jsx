@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import muz from "../ws.ogg";
+import muz_hard1_wsogg from "../ws.ogg";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto from "../ws.webp";
+import foto_hard1_wswebp from "../ws.webp";
 
 export default function Player() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -19,7 +19,7 @@ export default function Player() {
 
   const [seconds, setSeconds] = useState();
 
-  const [play, { pause, duration, sound }] = useSound(muz);
+  const [play, { pause, duration, sound }] = useSound(muz_hard1_wsogg);
 
   useEffect(() => {
     if (duration) {
@@ -60,7 +60,7 @@ export default function Player() {
 
   return (
     <div className="component">
-      <img className="musicCover" src={foto} />
+      <img className="musicCover" src={foto_hard1_wswebp} />
       <div>
         <h3 className="title">Flesh Blood</h3>
         <p className="subTitle">White Snake</p>

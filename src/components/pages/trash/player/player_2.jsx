@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import muz from "../Alo.ogg";
+import muz_tash1_alo_ogg from "../Alo.ogg";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 // import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto from "../treshg.webp";
+import foto_trash2_tershggwebp from "../treshg.webp";
 
 export default function PlayerD() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -19,7 +19,7 @@ export default function PlayerD() {
 
   const [seconds, setSeconds] = useState();
 
-  const [play, { pause, duration, sound }] = useSound(muz);
+  const [play, { pause, duration, sound }] = useSound(muz_tash1_alo_ogg);
 
   //! МУЗЫКА
 
@@ -62,7 +62,7 @@ export default function PlayerD() {
 
   return (
     <div className="component">
-      <img className="musicCover" src={foto} />
+      <img className="musicCover" src={foto_trash2_tershggwebp} />
       <div>
         <h3 className="title">Riders Temples</h3>
         <p className="subTitle">Alocer</p>

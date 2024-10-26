@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import muz from "../acdc.ogg";
+import muz_hard2_acdc_ogg from "../acdc.ogg";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 // import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto from "../acdc.webp";
+import foto_hard2_ws_acdccwebp from "../acdc.webp";
 
 export default function PlayerD() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -19,7 +19,7 @@ export default function PlayerD() {
 
   const [seconds, setSeconds] = useState();
 
-  const [play, { pause, duration, sound }] = useSound(muz);
+  const [play, { pause, duration, sound }] = useSound(muz_hard2_acdc_ogg);
 
   //! МУЗЫКА
 
@@ -62,7 +62,7 @@ export default function PlayerD() {
 
   return (
     <div className="component">
-      <img className="musicCover" src={foto} />
+      <img className="musicCover" src={foto_hard2_ws_acdccwebp} />
       <div>
         <h3 className="title">Back in Black</h3>
         <p className="subTitle">ACDC</p>

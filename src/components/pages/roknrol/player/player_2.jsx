@@ -5,8 +5,8 @@ import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
 import "../roknrol.css";
 import "../../../../app.css";
-import muz from "../Beat.ogg";
-import foto from "../Beatles2.webp";
+import muz_rokn2_beatogg from "../Beat.ogg";
+import foto_hard2_ws_beatel_ebp from "../Beatles2.webp";
 
 export default function PlayerD() {
   const [isPlaying, setIsPlaying] = useState(false);
@@ -21,7 +21,7 @@ export default function PlayerD() {
 
   const [seconds, setSeconds] = useState();
 
-  const [play, { pause, duration, sound }] = useSound(muz);
+  const [play, { pause, duration, sound }] = useSound(muz_rokn2_beatogg);
 
   //! МУЗЫКА
 
@@ -64,7 +64,7 @@ export default function PlayerD() {
 
   return (
     <div className="component">
-      <img className="musicCover" src={foto} />
+      <img className="musicCover" src={foto_hard2_ws_beatel_ebp} />
       <div>
         <h3 className="title">Ob-La-Di, Ob-La-Da</h3>
         <h3 className="subTitle">Beatles</h3>
