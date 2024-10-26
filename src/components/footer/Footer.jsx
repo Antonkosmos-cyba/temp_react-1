@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "./logo-1.png";
+import Logo from "./logo-1.webp";
 
 import "./footer.css";
 
