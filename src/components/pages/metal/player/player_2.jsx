@@ -4,7 +4,7 @@ import muz from "../Ram.ogg";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto from "../Ramstein_1.jpg";
+import foto from "../Ramstein_1.webp";
 
 export default function PlayerD() {
   const [isPlaying, setIsPlaying] = useState(false);

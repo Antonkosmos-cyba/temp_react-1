@@ -4,7 +4,7 @@ import muz from "../Ozzy.ogg";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 // import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto from "../ozu.png";
+import foto from "../ozu.webp";
 
 export default function Player() {
   const [isPlaying, setIsPlaying] = useState(false);

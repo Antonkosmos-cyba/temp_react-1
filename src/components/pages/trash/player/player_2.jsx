@@ -4,7 +4,7 @@ import muz from "../Alo.ogg";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 // import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto from "../treshg.png";
+import foto from "../treshg.webp";
 
 export default function PlayerD() {
   const [isPlaying, setIsPlaying] = useState(false);

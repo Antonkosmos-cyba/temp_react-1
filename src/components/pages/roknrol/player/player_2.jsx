@@ -6,7 +6,7 @@ import { IconContext } from "react-icons";
 import "../roknrol.css";
 import "../../../../app.css";
 import muz from "../Beat.ogg";
-import foto from "../Beatles2.jpg";
+import foto from "../Beatles2.webp";
 
 export default function PlayerD() {
   const [isPlaying, setIsPlaying] = useState(false);
