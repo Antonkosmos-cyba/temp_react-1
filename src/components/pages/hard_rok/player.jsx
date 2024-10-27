@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import muz_hard1_wsogg from "../ws.ogg";
+import muz_hard1_wsogg from "./ws.ogg";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto_hard1_wswebp from "../ws.webp";
+import foto_hard1_wswebp from "./ws.webp";
 
 export default function Player() {
   const [isPlaying, setIsPlaying] = useState(false);

@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import muz_hard2_acdc_ogg from "../acdc.ogg";
+import muz_hard2_acdc_ogg from "./acdc.ogg";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
 // import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto_hard2_ws_acdccwebp from "../acdc.webp";
+import foto_hard2_ws_acdccwebp from "./acdc.webp";
 
 export default function PlayerD() {
   const [isPlaying, setIsPlaying] = useState(false);
