@@ -1,12 +1,12 @@
 import { useEffect, useState } from "react";
 import useSound from "use-sound";
-import muz_hard2_acdc_ogg from "./acdc.ogg";
+import Foto_rokn_elwebp from "../Elvis.webp";
 import { AiFillPlayCircle, AiFillPauseCircle } from "react-icons/ai";
-// import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
+import { BiSkipNext, BiSkipPrevious } from "react-icons/bi";
 import { IconContext } from "react-icons";
-import foto_hard2_ws_acdccwebp from "./acdc.webp";
+import Muzik1_rokn_elogg from "../Elvis.ogg";
 
-export default function PlayerD() {
+export default function Player() {
   const [isPlaying, setIsPlaying] = useState(false);
   const [time, setTime] = useState({
     min: "",
@@ -19,9 +19,7 @@ export default function PlayerD() {
 
   const [seconds, setSeconds] = useState();
 
-  const [play, { pause, duration, sound }] = useSound(muz_hard2_acdc_ogg);
-
-  //! МУЗЫКА
+  const [play, { pause, duration, sound }] = useSound(Muzik1_rokn_elogg);
 
   useEffect(() => {
     if (duration) {
@@ -62,10 +60,10 @@ export default function PlayerD() {
 
   return (
     <div className="component">
-      <img className="musicCover" src={foto_hard2_ws_acdccwebp} />
+      <img className="musicCover" src={Foto_rokn_elwebp} />
       <div>
-        <h3 className="title">Back in Black</h3>
-        <p className="subTitle">ACDC</p>
+        <h3 className="title">A big hunk o' love</h3>
+        <h3 className="subTitle">Elvis Presley</h3>
       </div>
       <div>
         <input
@@ -81,6 +79,11 @@ export default function PlayerD() {
         />
       </div>
       <div>
+        {/* <button className="playButton">
+          <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
+            <BiSkipPrevious />
+          </IconContext.Provider>
+        </button> */}
         {!isPlaying ? (
           <button className="playButton" onClick={playingButton}>
             <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
@@ -94,6 +97,11 @@ export default function PlayerD() {
             </IconContext.Provider>
           </button>
         )}
+        {/* <button className="playButton"> 
+          <IconContext.Provider value={{ size: "3em", color: "#27AE60" }}>
+            <BiSkipNext />
+          </IconContext.Provider>
+        </button> */}
       </div>
     </div>
   );
