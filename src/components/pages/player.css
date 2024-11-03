@@ -73,21 +73,28 @@ p {
   background-color: var(--bant);
 } */
 
-/*! СТИЛИЗАЦИЯ ПЛЕЕРА */
+/*! Фон ПЛЕЕРА */
 
 audio::-webkit-media-controls-panel {
   background-color: var(--bgcard);
 }
 
-/* audio::-webkit-media-controls-mute-button {
-  fill: #fff;
-} */
+/* ! Кнопка пуск\пауза */
 
-/* audio::-webkit-media-controls-play-button  */
+audio::-webkit-media-controls-mute-button {
+  color: #e08d8d;
+}
+
+audio::-webkit-media-controls-panel {
+  color: #e08d8d;
+}
+
 
 /* audio::-webkit-media-controls-timeline-container {
   background-color: #fff;
 } */
+
+/* ! Шкала времени */
 
 audio::-webkit-media-controls-current-time-display {
   color: var(--tit);
@@ -97,20 +104,24 @@ audio::-webkit-media-controls-time-remaining-display {
   color: var(--tit);
 }
 
-audio::-webkit-media-controls-timeline {
+/* ! Блок  перемотки фон*/
+
+/* audio::-webkit-media-controls-timeline {
   background-color: var(--fon);
-}
+} */
 
-audio::-webkit-media-controls-volume-slider-container {
-  background-color: #e4fedc;
-}
+/* ! */
 
-/* audio::-webkit-media-controls-volume-slider audio::-webkit-media-controls-seek-back-button  */
+/* audio::-webkit-media-controls-volume-slider-container {
+  color: #e08d8d;
 
-/* audio::-webkit-media-controls-seek-forward-button  */
+} */
 
-/* audio::-webkit-media-controls-fullscreen-button audio::-webkit-media-controls-rewind-button  */
+/* audio::-webkit-media-controls-volume-slider {
+  color: #e08d8d;
 
-/* audio::-webkit-media-controls-return-to-realtime-button  */
+} */
 
-/* audio::-webkit-media-controls-toggle-closed-captions-button */
+/* audio::-webkit-media-controls-seek-back-button {
+  color: #e08d8d;
+} */
