@@ -81,12 +81,12 @@ audio::-webkit-media-controls-panel {
 
 /* ! Кнопка пуск\пауза */
 
-audio::-webkit-media-controls-mute-button {
+controls::-webkit-media-controls-mute-button {
   color: #e08d8d;
 }
 
-audio::-webkit-media-controls-panel {
-  color: #e08d8d;
+controls::-webkit-media-controls-panel {
+  background-color: #e08d8d;
 }
 
 
