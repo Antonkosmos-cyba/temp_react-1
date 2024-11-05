@@ -57,6 +57,29 @@ p {
   color: #27ae5fdd;
 }
 
+
+button {
+  background: #1E90FF;
+  /* Придадим яркости! */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #104E8B;
+  /* Добавим интерактивности */
+}
+
+
+
+
+
+
+
+
+
 /* .time {
   margin: 0 auto;
   width: 80%;
@@ -73,21 +96,23 @@ p {
   background-color: var(--bant);
 } */
 
-/*! Фон ПЛЕЕРА */
 
-audio::-webkit-media-controls-panel {
+
+
+/*! Фон ПЛЕЕРА */
+ReactAudioPlayer::-webkit-media-controls-panel {
   background-color: var(--bgcard);
 }
 
 /* ! Кнопка пуск\пауза */
-
+/*
 controls::-webkit-media-controls-mute-button {
   color: #e08d8d;
 }
 
 controls::-webkit-media-controls-panel {
   background-color: #e08d8d;
-}
+} */
 
 
 /* audio::-webkit-media-controls-timeline-container {
