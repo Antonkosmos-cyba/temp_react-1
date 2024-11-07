@@ -100,7 +100,7 @@ button:hover {
 
 
 /*! Фон ПЛЕЕРА */
-ReactAudioPlayer::-webkit-media-controls-panel {
+audio::-webkit-media-controls-panel {
   background-color: var(--bgcard);
 }
 
@@ -127,6 +127,12 @@ audio::-webkit-media-controls-current-time-display {
 
 audio::-webkit-media-controls-time-remaining-display {
   color: var(--tit);
+}
+
+
+audio {
+  max-width: 100%;
+  max-height: auto;
 }
 
 /* ! Блок  перемотки фон*/
