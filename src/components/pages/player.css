@@ -100,7 +100,8 @@ button:hover {
 
 
 /*! Фон ПЛЕЕРА */
-ReactAudioPlayer::-webkit-media-controls-panel {
+/* ReactAudioPlayer */
+::-webkit-media-controls-panel {
   background-color: var(--bgcard);
 }
 
